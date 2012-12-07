@@ -1,0 +1,134 @@
+#userbarToggle{
+    background-color:#333;
+}
+
+.titlebox .usertext-body .md ol li a{
+    background-color:#333333;
+    border:1px solid #555;
+    color:#fff;
+    padding:3px 7px 3px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:smaller;
+}
+
+.titlebox .usertext-body .md ol li a:hover{
+    border-color:#fff;
+    color:#fff;
+}
+
+.titlebox form{
+    position:static
+}
+
+.titlebox .usertext-body .md ol{
+    list-style:none;
+    position:absolute;
+    z-index:200;
+    margin:0;
+    padding:0;
+    display:table;
+}
+
+.titlebox .usertext-body .md ol li{
+    display:inline;
+    margin:0 0 0 10px;
+}
+
+.titlebox .usertext-body .md ol{
+    top:103px;
+    right:10px;
+}
+
+.titlebox .usertext-body .md ol ~ ol{
+    top:63px;
+    left:159px;
+}
+
+.side div blockquote{
+    display:none;
+}
+
+.link a.title:link{
+    color:#333;
+    font-size:15px;
+}
+
+.link a.title:visited,.thing .title.loggedin.click{
+    color:#888!important;
+}
+
+.link.odd,.linkcompressed.odd{
+    background:#f5f5f5!important;
+    border-top:1px solid #f1f1f1;
+    border-bottom:1px solid #f1f1f1;
+}
+
+.link.even,.link.odd{
+    padding:10px 0;
+}
+
+.entry{
+    padding-left:10px;
+}
+
+div.titlebox span.number::after{
+    content:" Dancers";
+}
+
+p.users-online span.number::after{
+    content: " People Dancing Now"
+}
+
+div.titlebox span.word{
+    display:none;
+}
+
+#header {
+    background:#e7e7e7 url(%%dance-header%%) top left;
+    border-bottom: 1px solid #000;
+    position:relative;
+    z-index:99;
+    height:150px;
+}
+
+.pagename a {
+    color: #fff;
+}
+
+#header-bottom-left{
+    top:86px;
+    position:relative;
+}
+
+
+#header-bottom-right{
+    background-color:#333333;
+    border:1px solid #555555;
+    color:#CCCCCC;
+}
+
+#header-bottom-right a{
+    color:#CCCCCC;
+}
+
+#header-bottom-right a:hover{
+    color:#fff;
+    text-decoration:underline;
+}
+
+.tabmenu li.selected a{
+    background-color:#fff;
+    border-color:#555 #555 white;
+    color:red;
+}
+
+.tabmenu li a{
+    background-color:#333;
+    border-color:#555;
+    color:#ccc;
+}
+
+.tabmenu a:hover{
+    text-decoration:underline;
+}
